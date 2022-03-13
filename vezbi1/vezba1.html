@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="text-center m-5">
+
+        <button type=button class="btn-primary glyphicon">Pause<i class="fa fa-pause"></i></button>
+        <button type=button class="btn-info">Play<i class="fa fa-play-circle"></i></button>
+
+
+    </div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+      </div>
+
+      <br />
+      <div> 
+        <table class="table table-bordered text-center table-responsive">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Месец и часови</th>
+                <th scope="col">Денови</th>
+                <th scope="col">Име</th>
+                <th scope="col">Презиме</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-success bg-opacity-25">
+                <td>Април</th>
+                <td>100</td>
+                <td>2</td>
+                <td>Стефан</td>
+                <td>Стефановски</td>
+              </tr>
+              <tr>
+                <td>Мај</th>
+                <td>45</td>
+                <td>1</td>
+                <td>Петко</td>
+                <td>Петковски</td>
+              </tr>
+              <tr>
+                <td>Јули</td>
+                <td>120</td>
+                <td>4</td>
+                <td colspan="2">Нема информација</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <div>
+            <div class="box">
+                <div class="box-1"></div>
+                <div class="box-2">
+                  <img src="1.png" alt="" />
+                </div>
+              </div>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label for="movie" class="form-label">Movie Title</label>
+                        <input type="text" class="form-control" aria-label="movie">
+                    </div>
+                    <div class="col">
+                        <label for="genre" class="form-label">Genre</label>
+                        <select class="form-select" aria-label="Choose a genre">
+                            <option selected>Choose a genre</option>
+                            <option value="1">Action</option>
+                            <option value="2">Drama</option>
+                            <option value="3">Comedy</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="director" class="form-label">Director</label>
+                        <input type="text" class="form-control" aria-label="director">
+                    </div>
+
+                    <div class="col">
+                        <label for="writer" class="form-label">Writer</label>
+                        <input type="text" class="form-control" aria-label="writer">
+                    </div>
+
+                    <div class="col">
+                        <label for="producer" class="form-label">Producer</label>
+                        <input type="text" class="form-control" aria-label="producer">
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <label for="website" class="form-label">Web Site</label>
+                        <input type="text" class="form-control" aria-label="website">
+                    </div>
+
+                    <div class="col">
+                        <label for="link" class="form-label">Youtube trailer URL</label>
+                        <input type="text" class="form-control" aria-label="link">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="review" class="form-label">Review</label>
+                    <textarea class="form-control" id="review" rows="3"></textarea>
+                </div>
+    <div>
+        <label for="link" class="form-label" >Ratting</label> <br/>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="terrible" id="terrible" value="terrible">
+                    <label class="form-check-label" for="terrible">Terrible</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="watchable" id="watchable" value="watchable">
+                    <label class="form-check-label" for="watchable">Watchable</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Best_ever" id="Best_ever" value="Best_ever">
+                    <label class="form-check-label" for="Best_ever">Best ever</label>
+                </div>
+        </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-danger">Cancel <i class="fa fa-window-close-o" aria-hidden="true"></i></button>
+                        <button type="submit" class="btn btn-success">Submit <i class="	fa fa-check-square-o"></i></span></button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+</div>
+    </div>
+    
+</body>
+</html>
